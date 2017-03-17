@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareChase", "SquareChase\SquareChase\SquareChase.csproj", "{EE89D13E-5EB8-4123-9B4A-0153A52197B1}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SquareChaseContent", "SquareChase\SquareChaseContent\SquareChaseContent.contentproj", "{535AC46D-6CC9-4910-8C18-71D760C2E0B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE89D13E-5EB8-4123-9B4A-0153A52197B1}.Debug|x86.ActiveCfg = Debug|x86
+		{EE89D13E-5EB8-4123-9B4A-0153A52197B1}.Debug|x86.Build.0 = Debug|x86
+		{EE89D13E-5EB8-4123-9B4A-0153A52197B1}.Release|x86.ActiveCfg = Release|x86
+		{EE89D13E-5EB8-4123-9B4A-0153A52197B1}.Release|x86.Build.0 = Release|x86
+		{535AC46D-6CC9-4910-8C18-71D760C2E0B0}.Debug|x86.ActiveCfg = Debug|x86
+		{535AC46D-6CC9-4910-8C18-71D760C2E0B0}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
