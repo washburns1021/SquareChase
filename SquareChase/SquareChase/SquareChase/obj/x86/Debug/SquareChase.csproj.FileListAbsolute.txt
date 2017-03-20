@@ -1,0 +1,17 @@
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\SquareChase.exe
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\SquareChase.pdb
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\obj\x86\Debug\SquareChase.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\obj\x86\Debug\SquareChase.exe
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\obj\x86\Debug\SquareChase.pdb
+C:\Users\eahscs\Documents\GitHub\SquareChase\SquareChase\SquareChase\SquareChase\bin\x86\Debug\Content\square.xnb

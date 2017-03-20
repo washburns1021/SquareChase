@@ -18,6 +18,14 @@ namespace SquareChase
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Random rand = new Random();
+        Texture2D squareTexture;
+        Rectangle currentSquare;
+        int playerScore = 0;
+        float timeRemaining = 0.0f;
+        const float TimePerSquare = 0.75f;
+        Color[] colors = new Color[3] { Color.Red, Color.Green,
+ Color.Blue };
 
         public Game1()
         {
@@ -34,7 +42,7 @@ namespace SquareChase
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            IsMouseVisible = true;
             base.Initialize();
         }
 
@@ -46,7 +54,7 @@ namespace SquareChase
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            squareTexture = Content.Load<Texture2D>(@"square");
             // TODO: use this.Content to load your game content here
         }
 
@@ -71,7 +79,24 @@ namespace SquareChase
                 this.Exit();
 
             // TODO: Add your update logic here
-
+            if (timeRemaining == 0.0f)
+            {
+                currentSquare = new Rectangle(
+                rand.Next(0, this.Window.ClientBounds.Width - 25),
+                rand.Next(0, this.Window.ClientBounds.Height - 25),
+                25, 25);
+                timeRemaining = TimePerSquare;
+            }
+            MouseState mouse = Mouse.GetState();
+            if ((mouse.LeftButton == ButtonState.Pressed) &&
+             (currentSquare.Contains(mouse.X, mouse.Y)))
+            {
+                playerScore++;
+                timeRemaining = 0.0f;
+            }
+            timeRemaining = MathHelper.Max(0, timeRemaining -
+             (float)gameTime.ElapsedGameTime.TotalSeconds);
+            Window.Title = "Score : " + playerScore.ToString();
             base.Update(gameTime);
         }
 
@@ -81,10 +106,15 @@ namespace SquareChase
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Gray);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.Draw(
+             squareTexture,
+             currentSquare,
+             colors[playerScore % 3]);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
